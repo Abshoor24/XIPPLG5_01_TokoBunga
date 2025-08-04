@@ -1,0 +1,216 @@
+/* style.css */
+
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #fff0f5;
+  color: #333;
+}
+
+/* Container seragam */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Header & Navbar */
+header {
+  background-color: #fff;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #c2185b;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #c2185b;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to bottom right, #fce4ec, #f8bbd0);
+  text-align: center;
+  padding: 5rem 1rem;
+  color: #880e4f;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #c2185b;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #ad1457;
+}
+
+/* Produk Section */
+.produk {
+  background-color: #fff;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.produk h2 {
+  font-size: 2rem;
+  color: #c2185b;
+  margin-bottom: 2rem;
+}
+
+.produk-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.produk-item {
+  background-color: #fff0f5;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+
+.produk-item:hover {
+  transform: translateY(-5px);
+}
+
+.produk-item img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.produk-item h3 {
+  margin-top: 1rem;
+  color: #880e4f;
+}
+
+.produk-item p {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+/* Kontak Section */
+.kontak {
+  background-color: #fce4ec;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.kontak h2 {
+  font-size: 2rem;
+  color: #c2185b;
+  margin-bottom: 1rem;
+}
+
+.wa-btn {
+  background-color: #25d366;
+  margin-top: 1rem;
+}
+
+.wa-btn:hover {
+  background-color: #20bf5c;
+}
+
+/* Footer */
+footer {
+  background-color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  border-top: 1px solid #eee;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.kontak h2 {
+  margin-bottom: 0.5rem;
+}
+
+.kontak p {
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input,
+textarea {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.btn {
+  background-color: #25d366;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #1da851;
+}

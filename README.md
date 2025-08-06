@@ -9,7 +9,7 @@ Ini adalah landing page responsif untuk toko bunga **MK3**, dibuat menggunakan H
 - Tampilan produk dan testimonial pelanggan
 - Optimasi untuk desktop dan mobile
 
-## 🚀 Teknologi
+## 🚀 Tech Stack
 - HTML5
 - CSS3 (vanilla)
 - JavaScript
